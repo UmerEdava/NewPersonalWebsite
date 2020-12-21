@@ -1,0 +1,178 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    background-image: url(../images/black-background-websites-The-Texture-Suite.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.colorLayer{
+    background-color: #141313d0;
+    height: 100vh;
+    z-index: 5;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+#overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(26, 24, 24, 0.747);
+    z-index: 2;
+}
+#bgImage{
+    position: absolute;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.menu-div{
+    z-index: 101;
+}
+header, .intro{
+    position: relative;
+    z-index: 5;
+}
+.intro{
+    padding-top: 7em;
+    padding-left: 1em;
+}
+.intro2{
+    z-index: 5;
+    position: relative;
+    padding-left: 2em;
+}
+.name{
+    color: white;
+    font-size: 25px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo{
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+.toggler-div{
+    text-align: right;
+}
+#logo{
+    margin-left: 6vw;
+}
+.main-heading{
+    color: white;
+    font-size: 4vw;
+}
+.nameLine{
+    margin-top: 1.5em;
+    font-size: 2vw;
+    color: gray;
+    margin-left: 1em;
+}
+.domainLine{
+    margin-left: 1.28em;
+    margin-top: -0.1em;
+}
+#homeSection{
+    height: 100vh;
+}
+#aboutSection{
+    padding-top: 8em;
+    position: relative;
+    z-index: 99;
+    height: 100vh;
+    margin-bottom: 27rem;
+}
+.aboutHeading{
+    font-size: 11vw;
+    font-weight: bold;
+}
+.aboutText{
+    color: white;
+    font-weight: 100;
+    margin-top: -7vw;
+}
+.aboutColumn{
+    
+}
+.aboutDescription{
+    color: white;
+    font-size: 17px;
+    margin-left: 1em;
+}
+a.resume{
+    text-decoration: none;
+}
+#servicesSection{
+    height: 100vh;
+    margin-top: 15vh;
+    z-index: 99;
+    position: relative;
+}
+.servicesText{
+    padding-top: 10vh;
+}
+.servicesHeading{
+    color: white;
+    font-size: 30px;
+}
+.servicesRow{
+    padding-top: 18vh;
+}
+.card-body{
+    color: white;
+}
+#contactSection{
+    padding-top: 8em;
+    position: relative;
+    z-index: 99;
+    height: 100vh;
+    margin-top: 170vh;
+}
+.sm{
+    font-size: 45px;
+    color:#464545;
+}
+.sm:hover{
+    color: #a09c9c;
+}
+.contact-details{
+    font-size: 2vw;
+}
+#footer{
+    position: relative;
+    z-index: 99;
+}
+a.contact-details{
+    color: white;
+    text-decoration: none;
+}
+a.contact-details:hover{
+    color:#a09c9c;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 110;
+    font-size: 22px;
+    border: none;
+    outline: none;
+    color: rgb(90, 89, 89);
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    color: rgb(117, 117, 117);
+  }
