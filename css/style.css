@@ -63,15 +63,21 @@ header, .intro{
 .toggler-div{
     text-align: right;
 }
-#logo{
-    margin-left: 6vw;
-}
 .main-heading{
     color: white;
     font-size: 4vw;
 }
+.background-header {
+  background: rgba(250,250,250,0.99) !important;
+  height: 80px!important;
+  position: fixed!important;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
+}
 .nameLine{
-    margin-top: 1.5em;
+    margin-top: 27vh;
     font-size: 2vw;
     color: gray;
     margin-left: 1em;
@@ -134,7 +140,7 @@ a.resume{
     position: relative;
     z-index: 99;
     height: 100vh;
-    margin-top: 170vh;
+    margin-top: 188vh;
 }
 .sm{
     font-size: 45px;
